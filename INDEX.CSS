@@ -1,0 +1,147 @@
+/* Custom CSS for styling the table */
+
+.relative {
+    position: relative;
+}
+tbody tr {
+    display: none;
+    padding: 1rem 2rem; /* Increase padding to make the button bigger */
+    font-size: 1.25rem;} /* I
+
+.rounded-md {
+    border-radius: 0.375rem;
+}
+/* Custom CSS for styling the search button */
+
+.border {
+    border-width: 1px;
+}
+
+.border-gray-400 {
+    border-color: #cbd5e0;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+.h-[600px] {
+    height: 600px;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.min-w-full {
+    min-width: 100%;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.bg-slate-50 {
+    background-color: #f7fafc;
+}
+
+.dark:bg-slate-700 {
+    background-color: #2d3748;
+}
+
+.border-slate-300 {
+    border-color: #e2e8f0;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-slate-900 {
+    color: #2d3748;
+}
+
+.dark:border-slate-600 {
+    border-color: #718096;
+}
+
+.dark:text-slate-200 {
+    color: #edf2f7;
+}
+
+.peer/published {
+    isolation: isolate;
+}
+
+.h-4 {
+    height: 1rem;
+}
+
+.w-4 {
+    width: 1rem;
+}
+
+.accent-[#ff3ea5] {
+    color: #ff3ea5;
+}
+
+.text-base {
+    font-size: 1.25rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-blue-700 {
+    color: #4299e1;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-x-2 {
+    gap: 0.5rem;
+}
+
+.text-slate-500 {
+    color: #718096;
+}
+
+.dark:border-slate-700 {
+    border-color: #2d3748;
+}
+
+.dark:text-slate-400 {
+    color: #cbd5e0;
+}
+
+.border-b {
+    border-bottom-width: 1px;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
