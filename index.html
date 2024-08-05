@@ -1,5 +1,52 @@
 <!-- Heading with animation -->
 <HTML>
+    <style>
+        <style>/* Table Styles */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td {
+            border-bottom: 1px solid #CBD5E0;
+            padding: 1rem;
+            text-align: left;
+            color: #1A202C;
+        }
+        
+        /* Light Theme Styles */
+        th {
+            background-color: #EDF2F7;
+            color: #2D3748;
+        }
+        
+        /* Dark Theme Styles */
+        .dark th {
+            background-color: #2D3748;
+            color: #E2E8F0;
+        }
+        
+        .dark td {
+            border-color: #4A5568;
+            color: #A0AEC0;
+        }
+        
+        /* Additional Styling for Specific Cells */
+        td input[type="checkbox"] {
+            height: 1rem;
+            width: 1rem;
+            accent-color: #ff3ea5;
+            .text-sm {
+    font-size: 0.875rem; /* Adjust the font size as needed */
+    color: #718096; /* Change the color as needed */
+}
+
+/* Styling for specific text content */
+.text-sm.hindu {
+    background-color: #F6E05E; /* Change background color as needed */
+}
+        }</style>
+    </style>
     <div class="mt-4 flex items-center justify-center">
         <input type="text" id="searchInput" placeholder="Search journalist...">
         <button onclick="searchJournalists()" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded-md">Search</button>
